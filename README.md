@@ -22,9 +22,9 @@ In order to run and build our content we dont need to provide travis with much o
 To set up github pages auto builds we need to give travis a personal access token. This can be gotten from [here](https://github.com/settings/tokens).
 
 We we have the personal access token we need to set it up as an enviroment variable in Travis itself like so :  
-![alt text](https://raw.githubusercontent.com/Ryan-Gordon/Create-React-App-Travis/master/travis-settings.png)
+![alt text](https://github.com/Ryan-Gordon/Create-React-App-Travis/blob/master/travis-settings.png)
   
-![alt text](https://raw.githubusercontent.com/Ryan-Gordon/Create-React-App-Travis/master/travis-env.png)
+![alt text](https://github.com/Ryan-Gordon/Create-React-App-Travis/blob/master/travis-env.png)
 
 
 ##### References
