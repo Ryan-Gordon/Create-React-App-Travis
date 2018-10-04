@@ -12,6 +12,23 @@ These steps assume you have NodeJS installed. You also need to install create-re
 npm install -g create-react-app
 ```
 
+#### Homepage Setup
+
+By default, React expects the page to be served from the root of a domain.
+However, if the page is being served on GitHub Pages, it won't be there, so you need to tell React to use relative paths.
+
+Edit your `package.json` as such:
+
+```json
+{
+  "name": "...",
+  "version": "...",
+  "more fields": "...",
+  
+  "homepage": "."
+}
+```
+
 #### Travis setup 
 Travis needs to be setup to start builds when we push to the master. 
 
