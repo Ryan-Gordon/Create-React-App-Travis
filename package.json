@@ -1,0 +1,28 @@
+{
+  "name": "create-react-app-travis",
+  "version": "1.0.0",
+  "description": "A short number of steps to get a react app build, tested and then hosted on Github Pages using Travis.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add-contributor": "all-contributors add",
+    "generate-contributors": "all-contributors generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-Gordon/Create-React-App-Travis.git"
+  },
+  "keywords": [
+    "React",
+    "Travis"
+  ],
+  "dependencies": {},
+  "author": "Ryan Gordon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ryan-Gordon/Create-React-App-Travis/issues"
+  },
+  "homepage": "https://github.com/Ryan-Gordon/Create-React-App-Travis#readme",
+  "devDependencies": {
+    "all-contributors-cli": "^4.11.2"
+  }
+}
